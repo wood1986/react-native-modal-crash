@@ -49,5 +49,8 @@
       "node"
     ]
   },
-  "packageManager": "yarn@3.3.1"
+  "packageManager": "yarn@3.3.1",
+  "resolutions": {
+    "react-native@0.70.6": "patch:react-native@npm%3A0.70.6#./.yarn/patches/react-native-npm-0.70.6-94c39d80fa.patch"
+  }
 }
